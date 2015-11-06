@@ -50,24 +50,27 @@ body {
 #fancybox {
   text-align: center;
   position: absolute;
-  margin-left: 15%;
 }
 
-/* line 54, ../compass/sass/style.scss */
+/* line 53, ../compass/sass/style.scss */
 .fancy-1 {
   text-align: center;
   position: absolute;
   top: 1100px;
+  width: 80%;
+  left: 10%;
+}
+/* line 59, ../compass/sass/style.scss */
+.fancy-1 .single {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+/* line 63, ../compass/sass/style.scss */
+.fancy-1 .single img {
+  width: 250px;
 }
 
-/* line 60, ../compass/sass/style.scss */
-.fancy-2 {
-  text-align: center;
-  position: absolute;
-  top: 1350px;
-}
-
-/* line 66, ../compass/sass/style.scss */
+/* line 77, ../compass/sass/style.scss */
 #flexlider2-wrapper {
   width: 95%;
   position: absolute;
@@ -76,12 +79,12 @@ body {
   text-align: center;
 }
 
-/* line 74, ../compass/sass/style.scss */
+/* line 85, ../compass/sass/style.scss */
 .flex-control-nav {
   top: 820px;
 }
 
-/* line 77, ../compass/sass/style.scss */
+/* line 88, ../compass/sass/style.scss */
 #header {
   height: 35px;
   padding-top: 15px;
@@ -90,7 +93,7 @@ body {
   color: Gold;
 }
 
-/* line 85, ../compass/sass/style.scss */
+/* line 96, ../compass/sass/style.scss */
 #nav-bar {
   /*	position: relative;*/
   background-color: silver;
@@ -98,16 +101,16 @@ body {
   z-index: 1000;
 }
 
-/* line 93, ../compass/sass/style.scss */
+/* line 104, ../compass/sass/style.scss */
 #nav-bar ul {
   text-align: center;
 }
-/* line 97, ../compass/sass/style.scss */
+/* line 108, ../compass/sass/style.scss */
 #nav-bar li {
   display: inline-block;
   padding: 24px 12px;
 }
-/* line 102, ../compass/sass/style.scss */
+/* line 113, ../compass/sass/style.scss */
 #nav-bar a {
   font-size: 16px;
   text-decoration: none;
@@ -116,13 +119,13 @@ body {
   color: #444;
 }
 
-/* line 111, ../compass/sass/style.scss */
+/* line 122, ../compass/sass/style.scss */
 #nav-bar .active {
   border-top: 5px solid Gold;
   padding-top: 10px;
 }
 
-/* line 117, ../compass/sass/style.scss */
+/* line 128, ../compass/sass/style.scss */
 .nav-bar-scrolled {
   position: fixed;
   top: 0;
