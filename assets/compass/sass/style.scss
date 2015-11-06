@@ -1,0 +1,90 @@
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#nav-wrapper{
+
+}
+
+.flexslider{
+	.flex-viewport{
+		li{
+			img{
+				max-height: 850px;
+				width: 100%;
+			}
+		}
+	}
+}
+#flexlider1-wrapper{
+	width: 95%;
+	position: absolute;
+	left: 2.5%;
+	top: 100px;
+	text-align: center;
+}
+
+#flexlider2-wrapper{
+	width: 95%;
+	position: absolute;
+	left: 2.5%;
+	top: 1200px;
+	text-align: center;
+}
+
+.flex-control-nav{
+	top: 820px;
+}
+#header{
+	height: 35px;
+	padding-top: 15px;
+	padding-left: 5px;
+	background-color: Navy;
+	color: Gold;
+}
+
+#nav-bar{
+/*	position: relative;*/
+	background-color: #fff;
+	height: 80px;
+	z-index: 1000;
+}
+
+#nav-bar{ 
+	ul{
+	text-align: center;
+	}
+
+	li{
+	display: inline-block;
+	padding: 24px 12px;
+	}
+
+	a{
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #444;
+	}
+}
+
+#nav-bar .active{
+	border-top: 5px solid Gold;
+	padding-top: 10px;
+}
+
+
+.nav-bar-scrolled{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}

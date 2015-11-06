@@ -1,0 +1,89 @@
+/* line 1, ../compass/sass/style.scss */
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* line 20, ../compass/sass/style.scss */
+.flexslider .flex-viewport li img {
+  max-height: 850px;
+  width: 100%;
+}
+
+/* line 27, ../compass/sass/style.scss */
+#flexlider1-wrapper {
+  width: 95%;
+  position: absolute;
+  left: 2.5%;
+  top: 100px;
+  text-align: center;
+}
+
+/* line 35, ../compass/sass/style.scss */
+#flexlider2-wrapper {
+  width: 95%;
+  position: absolute;
+  left: 2.5%;
+  top: 1200px;
+  text-align: center;
+}
+
+/* line 43, ../compass/sass/style.scss */
+.flex-control-nav {
+  top: 820px;
+}
+
+/* line 46, ../compass/sass/style.scss */
+#header {
+  height: 35px;
+  padding-top: 15px;
+  padding-left: 5px;
+  background-color: Navy;
+  color: Gold;
+}
+
+/* line 54, ../compass/sass/style.scss */
+#nav-bar {
+  /*	position: relative;*/
+  background-color: #fff;
+  height: 80px;
+  z-index: 1000;
+}
+
+/* line 62, ../compass/sass/style.scss */
+#nav-bar ul {
+  text-align: center;
+}
+/* line 66, ../compass/sass/style.scss */
+#nav-bar li {
+  display: inline-block;
+  padding: 24px 12px;
+}
+/* line 71, ../compass/sass/style.scss */
+#nav-bar a {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #444;
+}
+
+/* line 80, ../compass/sass/style.scss */
+#nav-bar .active {
+  border-top: 5px solid Gold;
+  padding-top: 10px;
+}
+
+/* line 86, ../compass/sass/style.scss */
+.nav-bar-scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
