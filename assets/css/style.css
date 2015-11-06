@@ -1,4 +1,11 @@
 /* line 1, ../compass/sass/style.scss */
+body {
+  background-image: url("../../Nashville-Predators1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* line 7, ../compass/sass/style.scss */
 .flex-caption {
   width: 96%;
   padding: 2%;
@@ -11,36 +18,70 @@
   line-height: 18px;
 }
 
-/* line 20, ../compass/sass/style.scss */
+/* line 19, ../compass/sass/style.scss */
+#social-media {
+  float: right;
+  overflow: hidden;
+  margin-right: 15px;
+  margin-top: -19px;
+}
+/* line 24, ../compass/sass/style.scss */
+#social-media img {
+  width: 30px;
+  margin-left: 15px;
+}
+
+/* line 33, ../compass/sass/style.scss */
 .flexslider .flex-viewport li img {
   max-height: 850px;
   width: 100%;
 }
 
-/* line 27, ../compass/sass/style.scss */
+/* line 40, ../compass/sass/style.scss */
 #flexlider1-wrapper {
   width: 95%;
   position: absolute;
   left: 2.5%;
-  top: 100px;
+  top: 130px;
   text-align: center;
 }
 
-/* line 35, ../compass/sass/style.scss */
+/* line 48, ../compass/sass/style.scss */
+#fancybox {
+  text-align: center;
+  position: absolute;
+  margin-left: 15%;
+}
+
+/* line 54, ../compass/sass/style.scss */
+.fancy-1 {
+  text-align: center;
+  position: absolute;
+  top: 1100px;
+}
+
+/* line 60, ../compass/sass/style.scss */
+.fancy-2 {
+  text-align: center;
+  position: absolute;
+  top: 1350px;
+}
+
+/* line 66, ../compass/sass/style.scss */
 #flexlider2-wrapper {
   width: 95%;
   position: absolute;
   left: 2.5%;
-  top: 1200px;
+  top: 1650px;
   text-align: center;
 }
 
-/* line 43, ../compass/sass/style.scss */
+/* line 74, ../compass/sass/style.scss */
 .flex-control-nav {
   top: 820px;
 }
 
-/* line 46, ../compass/sass/style.scss */
+/* line 77, ../compass/sass/style.scss */
 #header {
   height: 35px;
   padding-top: 15px;
@@ -49,24 +90,24 @@
   color: Gold;
 }
 
-/* line 54, ../compass/sass/style.scss */
+/* line 85, ../compass/sass/style.scss */
 #nav-bar {
   /*	position: relative;*/
-  background-color: #fff;
-  height: 80px;
+  background-color: silver;
+  height: 60px;
   z-index: 1000;
 }
 
-/* line 62, ../compass/sass/style.scss */
+/* line 93, ../compass/sass/style.scss */
 #nav-bar ul {
   text-align: center;
 }
-/* line 66, ../compass/sass/style.scss */
+/* line 97, ../compass/sass/style.scss */
 #nav-bar li {
   display: inline-block;
   padding: 24px 12px;
 }
-/* line 71, ../compass/sass/style.scss */
+/* line 102, ../compass/sass/style.scss */
 #nav-bar a {
   font-size: 16px;
   text-decoration: none;
@@ -75,13 +116,13 @@
   color: #444;
 }
 
-/* line 80, ../compass/sass/style.scss */
+/* line 111, ../compass/sass/style.scss */
 #nav-bar .active {
   border-top: 5px solid Gold;
   padding-top: 10px;
 }
 
-/* line 86, ../compass/sass/style.scss */
+/* line 117, ../compass/sass/style.scss */
 .nav-bar-scrolled {
   position: fixed;
   top: 0;

@@ -10,12 +10,15 @@
 	 <!-- Include superfish CSS -->
     <link rel="stylesheet" type="text/css" href="superfish-css/superfish.css">
     <!-- Include jquery, superfish.js and hoverIntent.js -->
+   	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+   	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
+   	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="superfish-js/jquery.js" type="text/javascript"></script>
     <script src="superfish-js/superfish.js" type="text/javascript"></script>
     <script src="superfish-js/hoverIntent.js" type="text/javascript"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-git2.min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
 	<script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
@@ -46,42 +49,84 @@
         </ul>
 </div> -->
 
-<div id="header">
-				<h1>Welcome to Yohsuke's Site</h1>
-				<p></p>
+		<div id="header">
+			<h1>Yohsuke J. Yamakawa</h1>
+			<div id="social-media">
+				<a href="#" title=""><img src="logos/Facebook-128.png"></a>
+				<a href="#" title=""><img src="logos/Line-128.png"></a>
+				<a href="#" title=""><img src="logos/Kakao_Talk2-128.png"></a>
+				<a href="#" title=""><img src="logos/Youtube-128.png"></a>
 			</div>
-			<div id="nav-bar">
-				<ul>
-					<li class="active"><a href="javascript:void(0)">Home</a></li>
-					<li><a href="javascript:void(0)">About</a></li>
-					<li><a href="javascript:void(0)">Projects</a></li>
-					<li><a href="javascript:void(0)">Experience</a></li>
-					<li><a href="javascript:void(0)">Contact</a></li>
-				</ul>
+		</div>
+
+		<div id="nav-bar">
+			<ul>
+				<li class="active"><a href="javascript:void(0)">Home</a></li>
+				<li><a href="javascript:void(0)">About</a></li>
+				<li><a href="javascript:void(0)">Projects</a></li>
+				<li><a href="javascript:void(0)">Experience</a></li>
+				<li><a href="javascript:void(0)">Contact</a></li>
+			</ul>
 				
-			</div>
+		</div>
 
 	<div id="flexlider1-wrapper">
 		<div class="flexslider">
 		  <ul class="slides">
 		    <li>
-		      <img src="yyhockey1.jpg" />
+		      <img src="yyhockey1.jpg"/>
 		      <p class="flex-caption">Rushing the Puck</p>
 		    </li>
 		    <li>
-		      <img src="yyhockey2.jpg" />
+		      <img src="yyhockey2.jpg"/>
 		      <p class="flex-caption">Goin for a Hit</p>
 		    </li>
 		    <li>
-		      <img src="yyhockey3.jpg" />
+		      <img src="yyhockey3.jpg"/>
 		      <p class="flex-caption">Goal Celebration</p>
 		    </li>
 		    <li>
-		      <img src="yyhockey4.jpg" />
+		      <img src="yyhockey4.jpg"/>
 		      <p class="flex-caption">Looking to Pass</p>
 		    </li>
 		  </ul>
 		</div>
+	</div>
+
+	<div class="fancy-1" id="fancybox">
+		<a id="single_1" class="single" href="http://farm1.staticflickr.com/291/18653638823_a86b58523c_b.jpg" title="Lupines (Kiddi Einars)">
+			<img src="http://farm1.staticflickr.com/291/18653638823_a86b58523c_m.jpg" alt="" />
+		</a>
+		<a id="single_2" class="single" href="http://farm4.staticflickr.com/3826/18875570170_e20cf27a4d_b.jpg" title="Colorful Feldberg II (STEFFEN EGLY)">
+			<img src="http://farm4.staticflickr.com/3826/18875570170_e20cf27a4d_m.jpg" alt="" />
+		</a>
+		<a id="single_3" class="single" href="http://farm1.staticflickr.com/471/19102574835_d5a7837217_b.jpg" title="Cannon Needles (JustinPoe)">
+			<img src="http://farm1.staticflickr.com/471/19102574835_d5a7837217_m.jpg" alt="" />
+		</a>
+		<a id="single_4" class="single" href="http://farm1.staticflickr.com/288/19353466834_6be3600330_b.jpg" title="Making a summer # 3 :) ((Nikon woman))">
+			<img src="http://farm1.staticflickr.com/288/19353466834_6be3600330_m.jpg" alt="" />
+		</a>
+		<a id="single_5" class="single" href="http://farm1.staticflickr.com/288/19353466834_6be3600330_b.jpg" title="Making a summer # 3 :) ((Nikon woman))">
+			<img src="http://farm1.staticflickr.com/288/19353466834_6be3600330_m.jpg" alt="" />
+		</a>
+	</div>
+
+	<div class="fancy-2" id="fancybox">
+		<a id="single_6" class="single" href="http://farm1.staticflickr.com/288/19353466834_6be3600330_b.jpg" title="Making a summer # 3 :) ((Nikon woman))">
+			<img src="http://farm1.staticflickr.com/288/19353466834_6be3600330_m.jpg" alt="" />
+		</a>
+		<a id="single_7" class="single" href="http://farm1.staticflickr.com/288/19353466834_6be3600330_b.jpg" title="Making a summer # 3 :) ((Nikon woman))">
+			<img src="http://farm1.staticflickr.com/288/19353466834_6be3600330_m.jpg" alt="" />
+		</a>
+		<a id="single_8" class="single" href="http://farm1.staticflickr.com/288/19353466834_6be3600330_b.jpg" title="Making a summer # 3 :) ((Nikon woman))">
+			<img src="http://farm1.staticflickr.com/288/19353466834_6be3600330_m.jpg" alt="" />
+		</a>
+		<a id="single_9" class="single" href="http://farm1.staticflickr.com/288/19353466834_6be3600330_b.jpg" title="Making a summer # 3 :) ((Nikon woman))">
+			<img src="http://farm1.staticflickr.com/288/19353466834_6be3600330_m.jpg" alt="" />
+		</a>
+		<a id="single_10" class="single" href="http://farm1.staticflickr.com/288/19353466834_6be3600330_b.jpg" title="Making a summer # 3 :) ((Nikon woman))">
+			<img src="http://farm1.staticflickr.com/288/19353466834_6be3600330_m.jpg" alt="" />
+		</a>
 	</div>
 
 	<div id="flexlider2-wrapper">
@@ -106,5 +151,6 @@
 		  </ul>
 		</div>
 	</div>
+	
 </body>
 </html>

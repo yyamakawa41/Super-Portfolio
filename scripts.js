@@ -1,10 +1,12 @@
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide"
-  });
-});
+
 
 $(document).ready(function(){
+
+	$(window).load(function() {
+  	$('.flexslider').flexslider({
+    animation: "slide"
+  	});
+	});
 
     var mainNav = $('#nav-bar');
     var mainNavScroll = 'nav-bar-scrolled';
@@ -24,4 +26,13 @@ $(document).ready(function(){
             mainNav.removeClass(mainNavScroll)
         }
     });
+
+    $(".single").fancybox({
+	          helpers: {
+	              title : {
+	                  type : 'float'
+	              }
+	          }
+	      });	
+
 });
